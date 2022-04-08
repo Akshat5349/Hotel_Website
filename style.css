@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+p{
+  padding: 20px 0;
+}
+nav{
+  background: #333;
+  overflow: auto;
+}
+.wrapper{
+  padding: 0 20px;
+  max-width: 1300px;
+  height: 100%;
+  margin: auto;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+h1{
+  font-size: 30px;
+}
+.txt-primary{
+  color: hsl(30, 87%, 75%);
+}
+.btn{
+  background-color: #333;
+  padding: 15px 20px;
+  border: none;
+}
+.btn:hover{
+  background-color: hsl(30, 87%, 75%);
+  color: #333;
+}
+.btn-light{
+  background-color: #fff;
+  color: #333;
+}
+.lead{
+  font-size: 18px;
+  line-height: 1.2em;
+}
+.bg-dark{
+  background-color: #333;
+  color: white;
+}
+.bg-gray{
+  background-color: #f0f0f0;
+}
+.bg-primary{
+  background-color: hsl(30, 87%, 75%);
+}
+.card p{
+  line-height: 1.4em;
+}
+.card .icon{
+  margin: auto;
+  margin-bottom: 20px;
+  width: 60px;
+}
+footer{
+  text-align: center;
+}
+.txt-white{color: #fff;}
+
+
+
+
+#logo{float: left;
+  text-align: center;
+  padding: 12px 0 0 0;
+}
+nav ul{float: right;
+list-style: none;}
+nav ul li{
+  float: left;
+}
+nav ul li a{
+  display: block;
+  padding: 24px;
+  text-align: center;
+}
+#nav-active, nav ul li a:hover{
+  background-color: hsl(0, 0%, 24%);
+  color: hsl(30, 87%, 75%);
+}
+#showcase{
+  background-image: url(./image_resources/showcase.jpg);
+  background-position: center;
+  height: 600px;
+  background-size: cover;
+  text-align: center;
+}
+#showcase-content{
+  padding-top: 170px;
+  text-align: center;
+  color: white;
+}
+#showcase-content h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#showcase-content p{
+  line-height: 1.7em;
+  margin-bottom: 30px;
+}
+#home-info{
+  overflow: hidden;
+  height: 420px;
+}
+#home-info-img{
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-image: url(./image_resources/photo-1.jpg);
+}
+#home-info-content{
+  float: right;
+  width: 50%;
+  padding: 50px 10px;
+  text-align: center;
+}
+#home-info-content p{
+  margin-bottom: 20px;
+}
+.card{
+  float:left;
+  width: 33.3%;
+  height: 100%;
+  padding: 40px 24px;
+  text-align: center;
+}
+#features{
+  height: 300px;
+}
+#abt{
+  overflow: auto;
+  height: 300px;
+  margin: 20px 0;
+}
+#abt-content{
+  float: left;
+  padding: 30px 10px;
+  width: 70%;
+}
+#abt-img{
+  float: right;
+  width: 30%;
+  height: 100%;
+  background-image: url(./image_resources/photo-2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius:50%;
+}
+#testimony{
+  background-image: url(./image_resources/test-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+.t-card{
+  background-color: hsla(30, 87%, 75%, 0.801);
+  overflow: auto;
+  margin: 20px 0 40px 0;
+  padding: 24px;
+}
+.t-card img{
+  display: block;
+  float: left;
+  border-radius: 50%;
+  width: 8%;
+}
+.t-card p{
+  float: right;
+  display: block;
+  width: 90%;
+  text-align: left;
+}
+form .formgrp{
+  margin-bottom: 20px;
+}
+form label{
+  display: block;
+  margin-bottom:10px;
+}
+form input,form textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: #ddd solid;
+}
+input:focus,textarea:focus{
+  outline: none;
+  border-color : hsl(30, 87%, 75%);
+}
+form{
+  padding: 40px 0;
+}
+form button{
+  margin: 1.4em 0;
+}
+#contact-info{
+  overflow: auto;
+  padding: 20px 0;
+}
+i{
+  font-size: 3em;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 60px;
+}
+#Contact-head{
+  margin-top: 20px;
+}
